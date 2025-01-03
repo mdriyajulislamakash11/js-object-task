@@ -24,8 +24,9 @@ let myObject = {
       city: 'Example City',
       isStudent: true
 }
-const output = Object.keys(myObject);
-console.log(output)
+// const output = Object.keys(myObject);
+// console.log(output)
+
 for(let i in myObject){
       console.log("key: ", i, "||" , "type: ", typeof myObject[i])
 }
